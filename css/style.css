@@ -5,10 +5,8 @@ html{
     position: relative;
     width: 1440px;
     height: 1884px;
-    
+    font-family: "Raleway", sans-serif;
     background: #FFFFFF;
-
-    
 }
 
 body {
@@ -19,66 +17,57 @@ body {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav_menu{
-    display:flex;
-    flex-direction: row;
+    display: flex;
     justify-content: space-around;
-    padding: 10px;
-    margin: 5px;
-
+    padding: 0px;
+    margin: 1px;
+    /* text-decoration: none; */
     position: absolute;
     width: 381px;
-    height: 19px;
+    height: 119px;
     left: 982px;
-    top: 48px;
+    top: 0px;
+    align-items:center;
     
 }
 
 .nav_hostings{
-    position: absolute;
-    left: 36.22%;
-    right: 34.12%;
-    top: 0%;
-    bottom: 0%;
-    
-    font-family: 'Raleway';
-    font-style: normal;
+    /* position: absolute; */
+    /* left: 36.22%; */
+    /* right: 34.12%; */
+    /* top: 0%; */
+    /* bottom: 0%; */
+    /* font-size: 16px; */
+    /* line-height: 19px; */
+    /* font-style: normal; */
+    display: flex;
+    height: 100%;
+    text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
-    
-    /* Blue */
-    
     color: #0065FC;
-
-    border-top-color: blue;
-    border-top: 2px;
-    border-top-style: solid;
+    border-top: 2px solid blue; 
+    align-items: center;
+    width: 162px;
+    justify-content: center;
+    /* padding: 0px 10px 0px 10px; */
 }
 
 .nav_activities{
-    position: absolute;
+/* position: absolute; */
 left: 83.46%;
 right: 0%;
 top: 0%;
 bottom: 0%;
-
-/* Nav/Standard */
-
-font-family: 'Raleway';
+text-decoration: none;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
-
 text-align: center;
-
 color: #000000;
 }
 
