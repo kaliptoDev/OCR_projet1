@@ -14,10 +14,26 @@ body {
 }
 
 .header{
+    width: 1440px;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
+}
+
+.booki_logo_top_left {
+    width: 64.09px;
+    height: 19px;
+
+    
+}
+
+.booki{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
 }
 
 .nav_menu{
