@@ -1,0 +1,57 @@
+/* HEADER */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booki_logo_top_left{
+    width: 64.09px;
+    height: 19px;
+    justify-content: left;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 1px;
+    width: 381px;
+    height: 119px;
+    left: 982px;
+    top: 0px;
+    align-items:center;
+}
+
+.nav_hostings{
+    display: flex;
+    height: 100%;
+    text-decoration: none;
+    font-weight: 500;
+    color: #0065FC;
+    border-top: 2px solid #0065FC; 
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.nav_activities {
+    display: flex;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    border-top: 2px solid white; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.nav_activities:hover{
+    border-top:2px solid #0065FC; 
+    color: #0065FC;
+    /* height: 100%; */
+    /* width: 50%; */
+}
