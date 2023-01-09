@@ -9,6 +9,7 @@ html{
 body {
     max-width: 1440px;
     margin: auto;
+    padding: 0 30px;
 }
 
 li{
@@ -25,6 +26,7 @@ li{
 .booki_logo_top_left{
     width: 64.09px;
     height: 19px;
+    justify-content: left;
 }
 
 .nav_menu {
@@ -45,22 +47,44 @@ li{
     text-decoration: none;
     font-weight: 500;
     color: #0065FC;
-    border-top: 2px solid blue; 
+    border-top: 2px solid #0065FC; 
     align-items: center;
-    width: 162px;
+    width: 50%;
     justify-content: center;
 }
 
 .nav_activities {
-    left: 83.46%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    display: flex;
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
+    color: #000000;
+    border-top: 2px solid white; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.nav_activities:hover{
+    border-top:2px solid #0065FC; 
+    color: #0065FC;
+    /* height: 100%; */
+    /* width: 50%; */
+}
+
+.h1_search_block {
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+font-style: normal;
+margin: 2 0;
+}
+
+.h2_search_block {
+    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    color: #000000;
+    font-style: normal;
+    margin: 2 0;
 }
