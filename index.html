@@ -5,6 +5,7 @@
         <meta name="title" content="Projet 2 OCR - Site Booki">
         <meta name="description" content="Booki, site de recherche d'appartements ">
         <script src="https://kit.fontawesome.com/49a892503a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/main.css">
@@ -26,9 +27,16 @@
         </header>
         <main>
             <section class="search_block">
-                <h1 class="h1_search_block">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <h2 class="h2_search_block">En plein centre-ville ou en pleine nature</h2>
+                <h1 class="search_block_h1">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <span class="search_block_span">En plein centre-ville ou en pleine nature</h2>
             </section>
+            <div class="search_bar">
+                    <i class="fa-solid fa-location-dot location_pin"></i>
+                <form class="search_bar_form" action="index.html" method="post">
+                    <input class="search_bar_form_input" type="text" name="search" placeholder="Marseille, France">
+                    <button class="search_bar_form_submit">Rechercher</button>
+                </form>
+            </div>
         </main>
     </body>
 </html>
