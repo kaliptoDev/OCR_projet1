@@ -47,7 +47,7 @@
     border: 1px solid #F2F2F2;
     border-radius: 1px;
     height: 100%;
-    padding: 0 10px;
+    padding: 0 15px;
     font-weight: 700;
     font-size: 18px;
 }
@@ -63,4 +63,10 @@
     color: #FFFFFF;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
+    transition: ease-in .08s;
+}
+
+.search_bar_form_submit:hover{
+    background-color: #FFFFFF;
+    color: #0065FC;
 }
