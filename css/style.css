@@ -21,3 +21,10 @@ main {
     flex-direction: column;
 }
 
+.blue_icons {
+    color: #0065FC;
+}
+
+.gray_icons {
+    color: #F2F2F2;
+}
