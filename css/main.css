@@ -5,8 +5,8 @@
     line-height: 26px;
     font-style: normal;
     margin: 4px 0;
-    }
-    
+}
+
 .search_block_span {
     font-weight: 400;
     font-size: 16px;
@@ -15,16 +15,16 @@
     margin: 4px 0;
 }
 
-.search_bar{
+.search_bar {
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
     height: 50px;
-    margin: 20px 0 
+    margin: 20px 0
 }
 
-.search_bar_form{
+.search_bar_form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,18 +32,18 @@
     height: 100%;
 }
 
-.location_pin{
+.location_pin {
     display: flex;
     width: 50px;
     height: 50px;
     background-color: #F2F2F2;
     align-items: center;
     justify-content: center;
-    border:1px solid #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
 }
 
-.search_bar_form_input{
+.search_bar_form_input {
     border: 1px solid #F2F2F2;
     border-radius: 1px;
     height: 100%;
@@ -52,7 +52,7 @@
     font-size: 18px;
 }
 
-.search_bar_form_submit{
+.search_bar_form_submit {
     border: 1px solid #F2F2F2;
     border-radius: 15px;
     height: 100%;
@@ -66,14 +66,14 @@
     transition: ease-in .08s;
 }
 
-.search_bar_form_submit:hover{
+.search_bar_form_submit:hover {
     background-color: #FFFFFF;
     color: #0065FC;
 }
 
 /* FILTERS BLOCK */
 
-.filters{
+.filters {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -84,7 +84,7 @@
     /* margin: 40px 0; */
 }
 
-.filters_buttons_icon{
+.filters_buttons_icon {
     padding-right: 18px;
 }
 
@@ -98,7 +98,7 @@
 
 }
 
-.filters_buttons{
+.filters_buttons {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -110,14 +110,14 @@
     line-height: 20px;
     font-style: normal;
     margin: 0px 20px;
-    border:2px solid #D9D9D9;
+    border: 2px solid #D9D9D9;
     border-radius: 25px;
     height: 50px;
     padding: 20px;
     transition: ease .1s;
 }
 
-.filters_buttons:hover{
+.filters_buttons:hover {
     background-color: #DEEBFF;
     transform: scale(1.02);
 }
@@ -125,7 +125,7 @@
 
 
 /* AVAILABLE HOSTINGS */
-.available_items{
+.available_items {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -133,8 +133,8 @@
     background-color: white;
 }
 
-.information_logo{
-    border: 1px solid #D9D9D9;;
+.information_logo {
+    border: 1px solid #D9D9D9;
     border-radius: 50%;
     height: 24px;
     width: 24px;
@@ -142,10 +142,10 @@
     align-items: center;
     justify-content: center;
     font-size: 0.625em;
-    margin-right:12px ;
+    margin-right: 12px;
 }
 
-.available_items_span{
+.available_items_span {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -153,21 +153,27 @@
 }
 
 /* HOSTINGS CARDS */
-.hostings_main{
-    background-color: #F2F2F2;
-    margin: 30px 15px 30px 0;
-    padding: 15px ;
+.hostings {
+    border-radius: 20px;
 }
 
-.hostings_h2{
+.hostings_main {
+    background-color: #F2F2F2;
+    margin: 30px 15px 30px 0;
+    padding: 15px;
+    max-width: 900px;
+    border-radius: 20px;
+}
+
+.hostings_h2 {
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
     font-style: normal;
-    padding:40px 0 20px 40px
+    padding: 40px 0 20px 40px
 }
 
-.hostings_main_cards{
+.hostings_main_cards {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -175,16 +181,18 @@
     flex-wrap: wrap;
 }
 
-.hostings_card{
+.hostings_card {
     background-color: white;
     border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
     max-width: 30%;
     margin: 15px;
     max-height: 200px;
+    transition: ease .1s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.hostings_card_img{
+.hostings_card_img {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     max-height: 125px;
@@ -192,7 +200,7 @@
     margin: 0 0 4.5px 0;
 }
 
-.hostings_card_h3{
+.hostings_card_h3 {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -200,7 +208,7 @@
     margin: 4.5px 14px;
 }
 
-.hostings_card_span{
+.hostings_card_span {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -208,6 +216,19 @@
     margin: 4.5px 14px;
 }
 
-.hostings_card_rating{
+.hostings_card_rating {
     margin: 4.5px 14px;
+}
+
+.hostings_main_span {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    margin: 25px 0 25px 44px;
+}
+
+.hostings_card:hover {
+    transform: scale(1.02);
 }

@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="title" content="Projet 2 OCR - Site Booki">
-        <meta name="description" content="Booki, site de recherche d'appartements ">
-        <script src="https://kit.fontawesome.com/49a892503a.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/card.css">
-        <link rel="stylesheet" href="css/footer.css">
-    </head>
-    <body>
-        <header class="header">
-            <img class="booki_logo_top_left" src="images/logo/Booki.png" alt="Booki Logo">
-            <nav class="nav_menu">
-                    <a class="nav_hostings" href="#hostings">Hébergements</a>
-                    <a class="nav_activities" href="#activities">Activités</a>
-            </nav>
-            
-        </header>
-        <main>
-            <section class="search_block">
-                <h1 class="search_block_h1">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <span class="search_block_span">En plein centre-ville ou en pleine nature</h2>
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="title" content="Projet 2 OCR - Site Booki"> -->
+    <title>Projet 2 OCR - Site Booki</title>
+    <meta name="description" content="Booki, site de recherche d'appartements ">
+    <script src="https://kit.fontawesome.com/49a892503a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="booki_logo_top_left" src="images/logo/Booki.png" alt="Booki Logo">
+        <nav class="nav_menu">
+            <a class="nav_hostings" href="#hostings">Hébergements</a>
+            <a class="nav_activities" href="#activities">Activités</a>
+        </nav>
+
+    </header>
+    <main>
+        <section class="search_block">
+            <h1 class="search_block_h1">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <span class="search_block_span">En plein centre-ville ou en pleine nature</span>
             <div class="search_bar">
-                    <i class="fa-solid fa-location-dot location_pin"></i>
+                <i class="fa-solid fa-location-dot location_pin"></i>
                 <form class="search_bar_form" action="index.html" method="post">
                     <input class="search_bar_form_input" type="text" name="search" placeholder="Marseille, France">
                     <button class="search_bar_form_submit">Rechercher</button>
@@ -34,91 +37,118 @@
             </div>
         </section>
 
-            <div class="filters">
-                <span class="filters_span">Filtres</span>
-                    <button class="filters_buttons">
-                        <i class="fa-sharp fa-solid fa-money-bill-wave blue_icons filters_buttons_icon"></i>
-                        <span class="filters_buttons_span">Économique</span>
-                    </button>
-                    <button class="filters_buttons">
-                        <i class="fa-solid fa-person blue_icons filters_buttons_icon"></i>
-                        <span class="filters_buttons_span">Familial</span>
-                    </button>
-                    <button class="filters_buttons">
-                        <i class="fa-solid fa-heart blue_icons filters_buttons_icon"></i>
-                        <span class="filters_buttons_span">Romantique</span>
-                    </button>
-                    <button class="filters_buttons">
-                        <i class="fa-solid fa-dog blue_icons filters_buttons_icon"></i>
-                        <span class="filters_buttons_span">Animaux autorisés</span>
-                    </button> 
-            </div>
+        <div class="filters">
+            <span class="filters_span">Filtres</span>
+            <button class="filters_buttons">
+                <i class="fa-sharp fa-solid fa-money-bill-wave blue_icons filters_buttons_icon"></i>
+                <span class="filters_buttons_span">Économique</span>
+            </button>
+            <button class="filters_buttons">
+                <i class="fa-solid fa-person blue_icons filters_buttons_icon"></i>
+                <span class="filters_buttons_span">Familial</span>
+            </button>
+            <button class="filters_buttons">
+                <i class="fa-solid fa-heart blue_icons filters_buttons_icon"></i>
+                <span class="filters_buttons_span">Romantique</span>
+            </button>
+            <button class="filters_buttons">
+                <i class="fa-solid fa-dog blue_icons filters_buttons_icon"></i>
+                <span class="filters_buttons_span">Animaux autorisés</span>
+            </button>
+        </div>
 
-            <div class="available_items">
-                <i class="fa-solid fa-info blue_icons information_logo"></i>
-                <span class="available_items_span">Plus de 500 logements sont disponibles dans cette ville</span>
-            </div>
+        <div class="available_items">
+            <i class="fa-solid fa-info blue_icons information_logo"></i>
+            <span class="available_items_span">Plus de 500 logements sont disponibles dans cette ville</span>
+        </div>
 
-            <section class="hostings">
-                <div class="hostings_main">
-                    <h2 class="hostings_h2">Hébergements à Marseille</h2>
-                    <div class="hostings_main_cards">
-                        <div class="hostings_card">
-                            <img class="hostings_card_img" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
-                            <h3 class="hostings_card_h3">Auberge La Canebière</h3>
-                            <span class="hostings_card_span">Nuit à partir de 25 €</span>
-                            <div class="hostings_card_rating">
-                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star gray_icons"></i>
-                            </div>
+        <section class="hostings" id="hostings">
+            <div class="hostings_main">
+                <h2 class="hostings_h2">Hébergements à Marseille</h2>
+                <div class="hostings_main_cards">
+                    <a href="#" class="hostings_card">
+                        <img class="hostings_card_img"
+                            src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
+                        <h3 class="hostings_card_h3">Auberge La Canebière</h3>
+                        <span class="hostings_card_span">Nuit à partir de 25 €</span>
+                        <div class="hostings_card_rating">
+                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star gray_icons"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="hostings_card">
+
+                        <img class="hostings_card_img"
+                            src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
+                        <h3 class="hostings_card_h3">Auberge La Canebière</h3>
+                        <span class="hostings_card_span">Nuit à partir de 25 €</span>
+                        <div class="hostings_card_rating">
+                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star gray_icons"></i>
                         </div>
 
-                        <div class="hostings_card">
-                            <img class="hostings_card_img" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
-                            <h3 class="hostings_card_h3">Auberge La Canebière</h3>
-                            <span class="hostings_card_span">Nuit à partir de 25 €</span>
-                            <div class="hostings_card_rating">
-                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star gray_icons"></i>
-                            </div>
+                    </a>
+                    <a href="#" class="hostings_card">
+
+                        <img class="hostings_card_img"
+                            src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
+                        <h3 class="hostings_card_h3">Auberge La Canebière</h3>
+                        <span class="hostings_card_span">Nuit à partir de 25 €</span>
+                        <div class="hostings_card_rating">
+                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star gray_icons"></i>
                         </div>
-                        <div class="hostings_card">
-                            <img class="hostings_card_img" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
-                            <h3 class="hostings_card_h3">Auberge La Canebière</h3>
-                            <span class="hostings_card_span">Nuit à partir de 25 €</span>
-                            <div class="hostings_card_rating">
-                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star gray_icons"></i>
-                            </div>
+
+                    </a>
+                    <a href="#" class="hostings_card">
+
+                        <img class="hostings_card_img"
+                            src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
+                        <h3 class="hostings_card_h3">Auberge La Canebière</h3>
+                        <span class="hostings_card_span">Nuit à partir de 25 €</span>
+                        <div class="hostings_card_rating">
+                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star gray_icons"></i>
                         </div>
-                        <div class="hostings_card">
-                            <img class="hostings_card_img" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
-                            <h3 class="hostings_card_h3">Auberge La Canebière</h3>
-                            <span class="hostings_card_span">Nuit à partir de 25 €</span>
-                            <div class="hostings_card_rating">
-                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star gray_icons"></i>
-                            </div>
+
+                    </a>
+                    <a href="#" class="hostings_card">
+
+                        <img class="hostings_card_img"
+                            src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
+                        <h3 class="hostings_card_h3">Auberge La Canebière</h3>
+                        <span class="hostings_card_span">Nuit à partir de 25 €</span>
+                        <div class="hostings_card_rating">
+                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star gray_icons"></i>
                         </div>
-                        <div class="hostings_card">
-                            <img class="hostings_card_img" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
-                            <h3 class="hostings_card_h3">Auberge La Canebière</h3>
-                            <span class="hostings_card_span">Nuit à partir de 25 €</span>
-                            <div class="hostings_card_rating">
-                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star gray_icons"></i>
-                            </div>
+
+                    </a>
+                    <a href="#" class="hostings_card">
+
+                        <img class="hostings_card_img"
+                            src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
+                        <h3 class="hostings_card_h3">Auberge La Canebière</h3>
+                        <span class="hostings_card_span">Nuit à partir de 25 €</span>
+                        <div class="hostings_card_rating">
+                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i
+                                class="fa-solid fa-star gray_icons"></i>
                         </div>
-                        <div class="hostings_card">
-                            <img class="hostings_card_img" src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="La Canebière">
-                            <h3 class="hostings_card_h3">Auberge La Canebière</h3>
-                            <span class="hostings_card_span">Nuit à partir de 25 €</span>
-                            <div class="hostings_card_rating">
-                            <i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star blue_icons"></i><i class="fa-solid fa-star gray_icons"></i>
-                            </div>
-                        </div>
-                    </div>
+
+                    </a>
                 </div>
+                <a href="#" class="hostings_main_span">Afficher plus</span>
+            </div>
 
+            <div class="hostings_popular"></div>
+        </section>
+    </main>
+</body>
 
-
-                <div class="hostings_popular"></div>
-            </section>
-        </main>
-    </body>
 </html>
