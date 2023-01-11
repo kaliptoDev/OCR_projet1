@@ -11,17 +11,14 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/card.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/filters.css">
     </head>
     <body>
         <header class="header">
             <img class="booki_logo_top_left" src="images/logo/Booki.png" alt="Booki Logo">
             <nav class="nav_menu">
-                    <a class="nav_hostings" href="#hostings">
-                        <p>Hébergements</p>
-                    </a>
-                    <a class="nav_activities" href="#activities">
-                        <p>Activités</p>
-                    </a>
+                    <a class="nav_hostings" href="#hostings">Hébergements</a>
+                    <a class="nav_activities" href="#activities">Activités</a>
             </nav>
             
         </header>
@@ -36,6 +33,25 @@
                     <input class="search_bar_form_input" type="text" name="search" placeholder="Marseille, France">
                     <button class="search_bar_form_submit">Rechercher</button>
                 </form>
+            </div>
+            <div class="filters">
+                <span class="filters_span">Filtres</span>
+                    <button class="filters_buttons">
+                        <i class="fa-sharp fa-solid fa-money-bill-wave filters_buttons_icons"></i>
+                        <span class="filters_buttons_span">Économique</span>
+                    </button>
+                    <button class="filters_buttons">
+                        <i class="fa-solid fa-person filters_buttons_icons"></i>
+                        <span class="filters_buttons_span">Familial</span>
+                    </button>
+                    <button class="filters_buttons">
+                        <i class="fa-solid fa-heart filters_buttons_icons"></i>
+                        <span class="filters_buttons_span">Romantique</span>
+                    </button>
+                    <button class="filters_buttons">
+                        <i class="fa-solid fa-dog filters_buttons_icons"></i>
+                        <span class="filters_buttons_span">Animaux autorisés</span>
+                    </button>
             </div>
         </main>
     </body>
