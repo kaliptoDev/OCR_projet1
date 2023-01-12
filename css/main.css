@@ -168,7 +168,7 @@
     border-radius: 20px;
 }
 
-.hostings_h2 {
+.global_h2 {
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
@@ -341,6 +341,37 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    font-style: normal;
+    margin: 4.5px 14px;
+}
+
+/*ACTIVITIES*/
+
+.activities_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.activites_card{
+width: 100%;
+/* padding: 10px; */
+/* border: 5px black solid; */
+border-radius: 20px;
+object-fit: cover;
+}
+
+.activities_card_img{
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    max-width: 375px;
+}
+
+.activities_h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
     font-style: normal;
     margin: 4.5px 14px;
 }
