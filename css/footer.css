@@ -1,0 +1,26 @@
+.footer_h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    /* margin: 45px 0 70px 20px; */
+    padding: 45px 0 30px 70px;
+    /* margin: 0 0 6px 0; */
+
+    /* margin: 4.5px 16px; */
+}
+
+.footer_li {
+    margin: 0 0 12px 70px;
+}
+
+.footer_li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer_ul{
+    margin: 0 90px 60px 0;
+}
