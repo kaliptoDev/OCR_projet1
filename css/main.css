@@ -260,6 +260,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .hostings_popular_h2 {
@@ -269,7 +270,7 @@
 .hostings_popular_icon {
     font-size: 1.125em;
     padding: 40px 0 20px 0;
-
+    margin: 0 40px 0 0;
 }
 
 .hostings_popular_card {
@@ -336,7 +337,7 @@
     transition: ease .1s;
 }
 
-.activites_card:hover{
+.activites_card:hover {
     transform: scale(1.02);
 }
 
@@ -354,4 +355,6 @@
 .activities_h3 {
     margin: 20px 20px;
 }
+
+
 

@@ -55,3 +55,17 @@
     border-top:2px solid #0065FC; 
     color: #0065FC;
 }
+
+@media screen and (max-width: 768px) {
+    .header{ 
+        flex-direction: column;
+    }
+
+    .nav_hostings{
+        width: 50%;
+    }
+
+    .nav_activities{
+        width: 50%;
+    }
+}
