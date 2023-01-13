@@ -333,6 +333,11 @@
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin: 0 40px 0 0;
+    transition: ease .1s;
+}
+
+.activites_card:hover{
+    transform: scale(1.02);
 }
 
 .activites_card_last {
