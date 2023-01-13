@@ -1,4 +1,5 @@
 /* SEARCH BLOCK */
+
 .search_block_h1 {
     font-weight: 700;
     font-size: 22px;
@@ -81,7 +82,6 @@
     justify-content: left;
     height: 100%;
     background-color: white;
-    /* margin: 40px 0; */
 }
 
 .filters_buttons_icon {
@@ -122,8 +122,6 @@
     transform: scale(1.02);
 }
 
-
-
 /* AVAILABLE HOSTINGS */
 .available_items {
     display: flex;
@@ -153,7 +151,9 @@
 }
 
 /* HOSTINGS CARDS */
+
 /* HOSTINGS MAIN */
+
 .hostings {
     display: flex;
     flex-direction: row;
@@ -204,24 +204,24 @@
     margin: 0 0 4.5px 0;
 }
 
-.hostings_card_h3 {
+.main_h3 {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     font-style: normal;
-    margin: 4.5px 14px;
+    margin: 4.5px 16px;
 }
 
 .hostings_card_span {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
     font-style: normal;
-    margin: 4.5px 14px;
+    margin: 4.5px 16px;
 }
 
 .hostings_card_rating {
-    margin: 4.5px 14px;
+    margin: 4.5px 16px;
 }
 
 .hostings_main_span {
@@ -242,6 +242,7 @@
 }
 
 /* HOSTINGS POPULAR */
+
 .hostings_popular {
     background-color: #F2F2F2;
     margin: 30px auto;
@@ -271,25 +272,13 @@
 
 }
 
-/* .hostings_popular_card_list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-} */
-
-
 .hostings_popular_card {
     background-color: white;
     border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
-    /* max-width: 100%; */
     margin: 0 0 0 0;
-    /* max-height: 200px; */
     transition: ease .1s;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
     display: flex;
     flex-direction: row;
     width: 82%;
@@ -319,30 +308,14 @@
     justify-content: space-between;
 }
 
-.hostings_popular_card_h3 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    font-style: normal;
-    margin: 4.5px 14px;
-}
-
 .hostings_popular_card_rating {
-    margin: 24px 14px 4.5px 14px;
+    margin: 24px 16px 4.5px 16px;
 }
 
 .hostings_popular_card_container_text {
     display: flex;
     flex-direction: column;
     justify-content: top;
-}
-
-.hostings_popular_card_span {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    font-style: normal;
-    margin: 4.5px 14px;
 }
 
 /*ACTIVITIES*/
@@ -354,24 +327,26 @@
     width: 100%;
 }
 
-.activites_card{
-width: 100%;
-/* padding: 10px; */
-/* border: 5px black solid; */
-border-radius: 20px;
-object-fit: cover;
+.activites_card {
+    width: 25%;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 40px 0 0;
 }
 
-.activities_card_img{
+.activites_card_last {
+    margin: 0 0 0 0;
+}
+
+.activities_card_img {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    max-width: 375px;
+    width: 100%;
+    height: 390px;
 }
 
-.activities_h3{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    font-style: normal;
-    margin: 4.5px 14px;
+.activities_h3 {
+    margin: 20px 20px;
 }
+
