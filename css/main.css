@@ -339,7 +339,7 @@
 
 /*ACTIVITIES*/
 
-.activities_cards {
+.activities_card_list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -428,8 +428,8 @@
 
     .hostings_popular {
         /* margin: 0 28px; */
-        padding: 0;
-        width: 100%;
+
+        max-width: 100%;
         border: none;
         border-radius: 0;
         padding: 0 28px;
@@ -450,7 +450,7 @@
 
         /* width: 100%; */
         width: 100%;
-        margin: 12px;
+        margin: 0 0 24px 0;
     }
 
     .hostings_main {
@@ -469,11 +469,45 @@
 
     .hostings_main_card {
         width: 100%;
-        margin: 12px;
+        margin: 12px 0;
         max-width: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     }
 
-    .hostings_card_img{
-        width:100%;
+    .hostings_main_span {
+        display: none;
+    }
+
+    .hostings_card_img {
+        width: 100%;
+    }
+
+    .activities {
+        display: flex;
+        flex-direction: column;
+        padding: 28px;
+        max-width: 100%;
+
+    }
+
+    .activities_card_list {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .activites_card {
+        width: 100%;
+        margin: 24px 0;
+
+    }
+
+    .activities_card_img {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        margin: 68px 0 0 0;
+        padding: 0 0 20px 0;
     }
 }
