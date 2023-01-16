@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta name="title" content="Projet 2 OCR - Site Booki"> -->
     <title>Projet 2 OCR - Site Booki</title>
     <meta name="description" content="Booki, site de recherche d'appartements ">
@@ -32,29 +33,34 @@
                 <i class="fa-solid fa-location-dot location_pin"></i>
                 <form class="search_bar_form" action="index.html" method="post">
                     <input class="search_bar_form_input" type="text" name="search" placeholder="Marseille, France">
-                    <button class="search_bar_form_submit">Rechercher</button>
+                    <button class="search_bar_form_submit">
+                        <span class="search_bar_span">Rechercher</span>
+                        <i class="fa-solid fa-search loupe"></i>
+                    </button>
                 </form>
             </div>
         </section>
 
         <div class="filters">
             <span class="filters_span">Filtres</span>
-            <button class="filters_buttons">
-                <i class="fa-sharp fa-solid fa-money-bill-wave blue_icons filters_buttons_icon"></i>
-                <span class="filters_buttons_span">Économique</span>
-            </button>
-            <button class="filters_buttons">
-                <i class="fa-solid fa-person blue_icons filters_buttons_icon"></i>
-                <span class="filters_buttons_span">Familial</span>
-            </button>
-            <button class="filters_buttons">
-                <i class="fa-solid fa-heart blue_icons filters_buttons_icon"></i>
-                <span class="filters_buttons_span">Romantique</span>
-            </button>
-            <button class="filters_buttons">
-                <i class="fa-solid fa-dog blue_icons filters_buttons_icon"></i>
-                <span class="filters_buttons_span">Animaux autorisés</span>
-            </button>
+            <div class="filters_buttons_list">
+                <button class="filters_buttons left_button">
+                    <i class="fa-sharp fa-solid fa-money-bill-wave blue_icons filters_buttons_icon"></i>
+                    <span class="filters_buttons_span">Économique</span>
+                </button>
+                <button class="filters_buttons">
+                    <i class="fa-solid fa-person blue_icons filters_buttons_icon"></i>
+                    <span class="filters_buttons_span">Familial</span>
+                </button>
+                <button class="filters_buttons">
+                    <i class="fa-solid fa-heart blue_icons filters_buttons_icon"></i>
+                    <span class="filters_buttons_span">Romantique</span>
+                </button>
+                <button class="filters_buttons">
+                    <i class="fa-solid fa-dog blue_icons filters_buttons_icon"></i>
+                    <span class="filters_buttons_span">Animaux autorisés</span>
+                </button>
+            </div>
         </div>
 
         <div class="available_items">
@@ -64,7 +70,7 @@
 
         <section class="hostings" id="hostings">
             <div class="hostings_main">
-                <h2 class="global_h2">Hébergements à Marseille</h2>
+                <h2 class="global_h2 hostings_main_h2">Hébergements à Marseille</h2>
                 <div class="hostings_main_card_list">
                     <a href="#" class="hostings_main_card">
                         <img class="hostings_card_img"

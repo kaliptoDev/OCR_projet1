@@ -9,7 +9,6 @@
 .booki_logo_top_left{
     width: 64.09px;
     height: 19px;
-    justify-content: left;
 }
 
 .nav_menu {
@@ -56,16 +55,33 @@
     color: #0065FC;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header{ 
         flex-direction: column;
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .nav_menu{
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        height: 65px;
+        margin: 18px 0 32px 0;
     }
 
     .nav_hostings{
         width: 50%;
+        border-bottom: 2px solid #0065FC; 
+        border-top: none;
     }
 
     .nav_activities{
         width: 50%;
+        border-top: none;
+    }
+
+    .nav_activities:hover{
+        border-bottom:2px solid #0065FC; 
+        border-top: none;
     }
 }

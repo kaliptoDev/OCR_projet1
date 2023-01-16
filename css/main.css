@@ -72,6 +72,14 @@
     color: #0065FC;
 }
 
+.loupe {
+    display: none;
+}
+
+.search_bar_span {
+    display: block;
+}
+
 /* FILTERS BLOCK */
 
 .filters {
@@ -96,6 +104,16 @@
     margin: 0 20px 0 0;
     margin: 40px 0;
 
+}
+
+.filters_buttons_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    background-color: white;
 }
 
 .filters_buttons {
@@ -356,5 +374,106 @@
     margin: 20px 20px;
 }
 
+@media screen and (max-width: 767px) {
 
+    .search_block_h1,
+    .search_block_span {
+        margin: 0 28px 0 28px;
+    }
 
+    .search_block_h1 {
+        padding: 0 0 12px 0;
+    }
+
+    .loupe {
+        display: block;
+    }
+
+    .search_bar_span {
+        display: none;
+    }
+
+    .search_bar {
+
+        justify-content: center;
+    }
+
+    .filters {
+        margin: 0 20px 0 20px;
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .filters_span {
+        margin: 15px 0 15px 8px;
+    }
+
+    .filters_buttons {
+        margin: 8px;
+        width: 47%;
+    }
+
+    .available_items {
+        margin: 36px 28px 36px 28px;
+    }
+
+    .hostings {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .hostings_main {
+        margin: 0;
+    }
+
+    .hostings_popular {
+        /* margin: 0 28px; */
+        padding: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        padding: 0 28px;
+        margin: 0;
+    }
+
+    .hostings_popular_h2 {
+        padding: 0 0;
+        /* margin: 0 0 0 28px; */
+    }
+
+    .hostings_popular_icon {
+        margin: 0 28px;
+        padding: 25px 0;
+    }
+
+    .hostings_popular_card {
+
+        /* width: 100%; */
+        width: 100%;
+        margin: 12px;
+    }
+
+    .hostings_main {
+        padding: 28px;
+        background-color: white;
+    }
+
+    .hostings_main_h2 {
+        padding: 0;
+    }
+
+    .hostings_main_card_list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hostings_main_card {
+        width: 100%;
+        margin: 12px;
+        max-width: none;
+    }
+
+    .hostings_card_img{
+        width:100%;
+    }
+}
