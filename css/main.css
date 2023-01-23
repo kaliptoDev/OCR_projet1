@@ -350,7 +350,6 @@
 .hostings_popular_card_container_text {
     display: flex;
     flex-direction: column;
-    justify-content: top;
 }
 
 /*ACTIVITIES*/
