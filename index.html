@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="title" content="Projet 2 OCR - Site Booki"> -->
     <title>Projet 2 OCR - Site Booki</title>
     <meta name="description" content="Booki, site de recherche d'appartements ">
     <script src="https://kit.fontawesome.com/49a892503a.js" crossorigin="anonymous"></script>
@@ -41,27 +40,31 @@
             </div>
         </section>
 
-        <div class="filters">
+        <form class="filters">
             <span class="filters_span">Filtres</span>
             <div class="filters_buttons_list">
-                <button class="filters_buttons left_button">
+                <input name="Economic" type="checkbox" class="checkbox" id="Economic_input" />
+                <label class="filters_buttons" for="Economic_input">
                     <i class="fa-sharp fa-solid fa-money-bill-wave blue_icons filters_buttons_icon"></i>
-                    <span class="filters_buttons_span">Économique</span>
-                </button>
-                <button class="filters_buttons">
+                    Économique
+                </label>
+                <input name="Familial" type="checkbox" class="checkbox" id="Familial_input" />
+                <label class="filters_buttons" for="Familial_input">
                     <i class="fa-solid fa-person blue_icons filters_buttons_icon"></i>
-                    <span class="filters_buttons_span">Familial</span>
-                </button>
-                <button class="filters_buttons">
+                    Familial
+                </label>
+                <input name="Romantic" type="checkbox" class="checkbox" id="Romantic_input" />
+                <label class="filters_buttons" for="Romantic_input">
                     <i class="fa-solid fa-heart blue_icons filters_buttons_icon"></i>
-                    <span class="filters_buttons_span">Romantique</span>
-                </button>
-                <button class="filters_buttons">
+                    Romantique
+                </label>
+                <input name="Pets" type="checkbox" class="checkbox" id="Pets_input" />
+                <label class="filters_buttons" for="Pets_input">
                     <i class="fa-solid fa-dog blue_icons filters_buttons_icon"></i>
-                    <span class="filters_buttons_span">Animaux autorisés</span>
-                </button>
+                    Animaux autorisés
+                </label>
             </div>
-        </div>
+        </form>
 
         <div class="available_items">
             <i class="fa-solid fa-info blue_icons information_logo"></i>

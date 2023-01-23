@@ -103,7 +103,6 @@
     font-style: normal;
     margin: 0 20px 0 0;
     margin: 40px 0;
-
 }
 
 .filters_buttons_list {
@@ -130,14 +129,22 @@
     margin: 0px 20px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    height: 50px;
-    padding: 20px;
+    height: 48px;
+    padding: 0 18px;
     transition: ease .1s;
+}
+
+.checkbox {
+    display: none;
 }
 
 .filters_buttons:hover {
     background-color: #DEEBFF;
     transform: scale(1.02);
+}
+
+.checkbox:checked+label {
+    background-color: #DEEBFF;
 }
 
 /* AVAILABLE HOSTINGS */
@@ -208,7 +215,7 @@
     border-radius: 20px 20px 20px 20px;
     max-width: 30%;
     margin: 15px;
-    max-height: 200px;
+    max-height: 220px;
     transition: ease .1s;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     min-width: 250px
@@ -219,7 +226,7 @@
     object-fit: cover;
     max-height: 125px;
     width: 250px;
-    margin: 0 0 4.5px 0;
+    margin: 0 0 4px 0;
 }
 
 .main_h3 {
@@ -227,7 +234,7 @@
     font-size: 16px;
     line-height: 19px;
     font-style: normal;
-    margin: 4.5px 16px;
+    margin: 4px 16px;
 }
 
 .hostings_card_span {
@@ -235,11 +242,11 @@
     font-size: 16px;
     line-height: 16px;
     font-style: normal;
-    margin: 4.5px 16px;
+    margin: 4px 16px;
 }
 
 .hostings_card_rating {
-    margin: 4.5px 16px;
+    margin: 4px 16px;
 }
 
 .hostings_main_span {
@@ -262,15 +269,6 @@
 /* HOSTINGS POPULAR */
 
 .hostings_popular {
-    /* background-color: #F2F2F2;
-    margin: 30px auto;
-    padding: 15px 15px 45px 15px;
-    border-radius: 20px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
     margin: 30px auto;
     display: flex;
     flex-direction: column;
@@ -278,14 +276,10 @@
     justify-content: space-between;
 
     background-color: #F2F2F2;
-    /* margin: 30px auto; */
-    /* padding: 15px 15px 45px 15px; */
     border-radius: 20px;
 }
 
-.hostings_popular_cards{
-    
-    /* margin: 30px auto; */
+.hostings_popular_cards {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -350,7 +344,7 @@
 }
 
 .hostings_popular_card_rating {
-    margin: 24px 16px 4.5px 16px;
+    margin: 24px 16px 4px 16px;
 }
 
 .hostings_popular_card_container_text {
@@ -402,28 +396,44 @@
         width: 100%;
     }
 
-    .hostings_main{
+    .hostings_main {
         margin: 0 0 30px 0;
+        max-width: none;
+        width: 100%;
     }
-    .hostings_popular_cards{
+
+    .hostings_cards_rating {
+        margin: 10px 16px 4px 16px;
+    }
+
+    .hostings_popular {
+        margin: 0 0 30px 0;
+        max-width: none;
+        width: 100%;
+    }
+
+    .hostings_popular_cards {
         flex-direction: row;
-
+        padding: 0 0 45px;
     }
 
-    .hostings_popular_card_img{
+    .hostings_popular_card_img {
         max-width: 100px;
     }
 
-    .hostings_popular_card{
+    .hostings_popular_card {
         margin: 0 10px;
-        max-width: 30%;
     }
 
-    .hostings_popular_card_container{
+    .hostings_popular_card_container {
         max-width: 150px;
     }
 
-    .available_items{
+    .hostings_popular_card_rating {
+        margin: 10px 16px 4px 16px;
+    }
+
+    .available_items {
         margin: 36px 28px 36px 28px;
     }
 }
@@ -450,7 +460,6 @@
     }
 
     .search_bar {
-
         justify-content: center;
     }
 
@@ -466,39 +475,14 @@
 
     .filters_buttons {
         margin: 8px;
-        width: 47%;
+        width: 45%;
+        font-size: 11px;
+        line-height: 13px;
     }
 
     .available_items {
         margin: 36px 28px 36px 28px;
     }
-
-
-
-    /*.hostings {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .hostings_popular_cards{
-        flex-direction: row;
-
-    }
-
-    .hostings_popular_card_img{
-        max-width: 100px;
-    }
-
-    .hostings_popular_card{
-        margin: 0 10px;
-    }
-
-    .hostings_popular_card_container{
-        max-width: 150px;
-    }
-    */
-
-
 
     .hostings {
         flex-direction: column-reverse;
@@ -510,8 +494,6 @@
     }
 
     .hostings_popular {
-        /* margin: 0 28px; */
-
         max-width: 100%;
         border: none;
         border-radius: 0;
@@ -526,27 +508,24 @@
 
     .hostings_popular_h2 {
         padding: 0 0;
-        /* margin: 0 0 0 28px; */
     }
 
     .hostings_popular_icon {
-        margin: 0 28px;
+        margin: 0 0px;
         padding: 25px 0;
     }
 
     .hostings_popular_card {
-
-        /* width: 100%; */
         min-width: 0px;
         width: 100%;
         margin: 0 0 24px 0;
     }
 
-    .hostings_popular_card_container{
+    .hostings_popular_card_container {
         max-width: none;
     }
 
-    .hostings_popular_card_img{
+    .hostings_popular_card_img {
         max-width: 137px;
     }
 
@@ -585,23 +564,25 @@
         flex-direction: column;
         padding: 28px;
         max-width: 100%;
-
     }
 
     .activities_card_list {
         flex-direction: column;
         max-width: 100%;
-        align-items:flex-start;
+        align-items: flex-start;
     }
 
     .activites_card {
         width: 100%;
         margin: 24px 0;
-
     }
 
     .activities_card_img {
         width: 100%;
+    }
+
+    .activities_h2{
+        padding:0;
     }
 
     footer {
@@ -610,4 +591,3 @@
         padding: 0 0 20px 0;
     }
 }
-
