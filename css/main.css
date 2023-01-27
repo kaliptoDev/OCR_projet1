@@ -196,6 +196,10 @@
     display: none;
 }
 
+.filters_buttons:hover{
+    cursor: pointer;
+}
+
 .filters_buttons:hover {
     background-color: #DEEBFF;
     -webkit-transform: scale(1.02);
@@ -661,6 +665,9 @@
         line-height: 13px;
     }
 
+    .filters_buttons_list{
+        width: 100%;
+    }
     .available_items {
         margin: 36px 28px 36px 28px;
     }
