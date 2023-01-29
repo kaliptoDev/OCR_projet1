@@ -310,7 +310,7 @@
     border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
     max-width: 30%;
-    margin: 15px;
+    margin: 10px;
     max-height: 220px;
     -webkit-transition: ease .1s;
     -o-transition: ease .1s;
@@ -395,6 +395,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -605,6 +606,9 @@
 
     .hostings_popular_card {
         margin: 0 10px;
+        justify-content: center;
+        max-width: 320px;
+        margin: 0 0 10px 0;
     }
 
     .hostings_popular_card_container {
